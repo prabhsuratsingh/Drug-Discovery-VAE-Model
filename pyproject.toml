@@ -1,0 +1,20 @@
+[project]
+name = "drug-discovery-model"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "biopython>=1.85",
+    "deepchem>=2.8.0",
+    "matplotlib>=3.10.1",
+    "mdanalysis>=2.9.0",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "rdkit>=2024.9.6",
+    "scikit-learn>=1.6.1",
+    "torch>=2.6.0",
+    "torch-geometric>=2.6.1",
+    "torchaudio>=2.6.0",
+    "torchvision>=0.21.0",
+]
